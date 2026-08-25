@@ -7,7 +7,7 @@ import Home from './Homepage/Home'
 import Footer from './Footer'
 import About from './About'
 
-import Classicpkg from './Umrahpkg/classicpkg'
+import Classicpkg from './Umrahpkg/Classicpkg'
 import Deluxepkg from './Umrahpkg/Deluxepkg'
 import Luxurypkg from './Umrahpkg/Luxurypkg'
 
