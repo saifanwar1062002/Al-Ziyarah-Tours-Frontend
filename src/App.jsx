@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import AllRoutes from './Allroutes'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
      <AllRoutes/>

@@ -27,18 +27,13 @@ import { Link } from 'react-router-dom';
 const Allpackages = () => {
     const [activeCategory, setActiveCategory] = useState('all');
     const [searchTerm, setSearchTerm] = useState('');
-    const [selectedPackage, setSelectedPackage] = useState(null);
     const [showFilters, setShowFilters] = useState(false);
     const [visibleCards, setVisibleCards] = useState([]);
     const [sortBy, setSortBy] = useState('popularity');
-    const [showModal, setShowModal] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
     const [mergedPackages, setMergedPackages] = useState([]);
     const [loading, setLoading] = useState(true);
     const [expandedFeatures, setExpandedFeatures] = useState({});
-
-    const handleBookingClick = () => setShowModal(true);
-    const closeModal = () => setShowModal(false);
 
     // Al-Ziyarah Tours color scheme
     const colors = {

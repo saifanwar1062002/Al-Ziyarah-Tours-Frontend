@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
     Phone,
     Mail,
@@ -45,17 +45,8 @@ export default function Contact() {
         goldDark: '#e6a800'
     };
 
-    const primaryGradient = `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`;
-    const secondaryGradient = `linear-gradient(135deg, ${colors.secondary}, ${colors.goldLight})`;
-
     // Background image URL
     const contactImageUrl = 'https://i.pinimg.com/736x/b6/fc/8b/b6fc8b96d2f824b6754de14aa9db2b14.jpg';
-
-    // Social media links
-    const socialMedia = [
-        { icon: Facebook, link: '#', color: '#1877F2', label: 'Facebook' },
-        { icon: Instagram, link: '#', color: '#E4405F', label: 'Instagram' },
-    ];
 
     // Google Maps address
     const officeAddress = "C-5/36 Street No.7 Chauhan Banger New Seelampur, New Delhi-110053, India";

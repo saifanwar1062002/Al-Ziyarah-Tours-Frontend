@@ -39,9 +39,6 @@ const Visaservice = () => {
         setOpenFAQ(openFAQ === index ? null : index);
     };
 
-    const primaryGradient = `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`;
-    const secondaryGradient = `linear-gradient(135deg, ${colors.secondary}, ${colors.goldLight})`;
-
     const stats = [
         { number: '98%', label: 'Visa Success Rate' },
         { number: '5-7', label: 'Days Processing' },

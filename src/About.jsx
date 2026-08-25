@@ -16,10 +16,6 @@ const About = () => {
         setOpenFaq(openFaq === index ? null : index);
     };
 
-    const openQuickEnquiry = () => {
-        setIsQuickEnquiryOpen(true);
-    };
-
     const onClose = () => {
         setIsQuickEnquiryOpen(false);
     };
