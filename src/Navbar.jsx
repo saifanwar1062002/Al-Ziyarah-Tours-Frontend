@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, Facebook, Instagram, Linkedin, Youtube, ChevronDown, Menu, X, Clock, MapPin, Star, MessageCircle } from 'lucide-react';
+import { Phone, ChevronDown, Menu, X, Clock, MapPin, Star, MessageCircle } from 'lucide-react';
 import logo from './assets/AI-Ziyarah_logo.png';
 import QuickEnquiry from './Quickenquiry';
 
@@ -406,19 +406,19 @@ export default function Navbar() {
                                                 <div className="text-sm font-bold text-[#382e6a] px-6 py-2 mb-2 bg-gradient-to-r from-gray-50 to-gray-100 border-b border-[#feba00]/20">
                                                     UMRAH PACKAGES
                                                 </div>
-                                                <Link to="/Classicumrahpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/classicpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Classic Umrah Package
                                                     </div>
                                                 </Link>
-                                                <Link to="/deluxeumrahpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/deluxepkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Deluxe Umrah Package
                                                     </div>
                                                 </Link>
-                                                <Link to="/luxuryumrahpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/luxurypkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Luxury Umrah Package
@@ -447,19 +447,19 @@ export default function Navbar() {
                                                 <div className="text-sm font-bold text-[#382e6a] px-6 py-2 mb-2 bg-gradient-to-r from-gray-50 to-gray-100 border-b border-[#feba00]/20">
                                                     HAJJ PACKAGES
                                                 </div>
-                                                <Link to="/classichajjpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/classicpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Classic Hajj Package
                                                     </div>
                                                 </Link>
-                                                <Link to="/deluxehajjpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/deluxepkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Deluxe Hajj Package
                                                     </div>
                                                 </Link>
-                                                <Link to="/luxuryhajjpkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
+                                                <Link to="/luxurypkg" onClick={closeMobileMenu} className="block px-6 py-3 hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 text-sm transition-colors group/item">
                                                     <div className="flex items-center">
                                                         <div className="w-2 h-2 bg-gradient-to-r from-[#feba00] to-[#ffcc44] rounded-full mr-3 group-hover/item:scale-110 transition-transform"></div>
                                                         Luxury Hajj Package
@@ -517,7 +517,7 @@ export default function Navbar() {
                                 </div>
 
                                 <Link
-                                    to="/visa"
+                                    to="/visaservice"
                                     onClick={closeMobileMenu}
                                     className="px-4 py-3 text-[#382e6a] hover:bg-gradient-to-r hover:from-gray-50/70 hover:to-gray-100/70 hover:text-[#382e6a] font-medium transition-all duration-300 rounded-lg mx-2 text-base border border-transparent hover:border-[#feba00]/30"
                                 >

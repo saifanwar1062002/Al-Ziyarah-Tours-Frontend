@@ -284,7 +284,7 @@ Complete Ramadan Features: Daily Iftar and Suhoor arrangements, Taraweeh prayers
             )}
 
             {/* Hero Section */}
-            <div className="relative h-140 sm:h-100 md:h-110 lg:h-[500px] xl:h-[650px] overflow-hidden mt-20 md:mt-10">
+            <div className="relative h-140 sm:h-100 md:h-110 lg:h-[500px] xl:h-[650px] overflow-hidden mt-28 md:mt-10">
                 {/* Background Image with Overlay */}
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
